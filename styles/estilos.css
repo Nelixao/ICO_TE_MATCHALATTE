@@ -1,0 +1,23 @@
+body {
+    background: #f4f4f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .navbar {
+    background-color: #343a40;
+  }
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  .hero {
+    background: url('https://picsum.photos/seed/bg/1200/400') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+  }
+  .section-link {
+    margin-top: 2rem;
+  }
