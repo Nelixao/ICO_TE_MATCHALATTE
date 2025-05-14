@@ -1,23 +1,220 @@
 body {
-    background: #f4f4f9;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  .navbar {
-    background-color: #343a40;
-  }
-  .navbar-brand, .nav-link {
-    color: #fff !important;
-  }
-  .hero {
-    background: url('https://picsum.photos/seed/bg/1200/400') no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 8px #000;
-  }
-  .section-link {
-    margin-top: 2rem;
-  }
+  background: #c0de7b;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #054204;
+}
+
+.titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 3px 2px 0 #381d03c4;
+  color: #529656b9;
+}
+
+.navbar {
+  background-color: #55a6c3;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  list-style: none;
+  background: radial-gradient(ellipse at center, #5C9D4F 0%, #0BA213 50%, #256417 100%);
+  transition: background-color 0.3s;
+}
+
+.navbar a {
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('../imagenes/imgprincipal.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 0 #40b55d, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+               -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+               -2px 0px 0 #4074b5;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-link {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Botón personalizado */
+.custom-btn {
+  background-color: #276f0c;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.custom-btn:hover {
+  background-color: #054204;
+}
+.custom-btn:active {
+  background-color: #0BA213;
+}
+/* Sección de desarrolladores */
+.dev-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.dev-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #275f0b;
+  text-shadow: 2px 2px 0 #b1d39c;
+}
+
+/* Tarjetas */
+.dev-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.dev-card {
+  background-color: white;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dev-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.dev-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.dev-card h3 {
+  color: #2b4f2f;
+  margin-top: 1rem;
+}
+
+.dev-card p {
+  color: #444;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.dev-card a {
+  display: inline-block;
+  background-color: #276f0c;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.dev-card a:hover {
+  background-color: #054204;
+}
+.perfil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.perfil-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perfil-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid #5c9d4f;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0.5rem 0.75rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #55a6c3;
+  border-radius: 12px;
+  color: #055e76;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #55a6c3;
+  color: white;
+}
