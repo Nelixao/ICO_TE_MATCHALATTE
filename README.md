@@ -1,13 +1,15 @@
-# Nombre del equipo: CodeWave
+# Nombre del equipo: MATCHALATTE
 
 ## Integrantes
 
 | Nombre | Rol | Correo |
 |--------|-----|--------|
-| Juan Pérez | Product Owner | juan.p@gmail.com |
-| Ana Torres | Scrum Master | ana.t@gmail.com |
-| Luis Rojas | Team Scrum | luis.r@gmail.com |
-| Sofía López | Team Scrum | sofia.l@gmail.com |
+| Ximena Neli | Product Owner | ncelisalonso@gmail.com |
+| Arturo Leon | Scrum Master | arturoleon77706@gmail.com |
+| Emiliano Garcia | Team Scrum | emilianogarsan0@gmail.com |
+| Jessica Hernandez | Team Scrum | jessicadhd34@gmail.com |
+| Sofia Vega | Team Scrum | sofiavega320@aragon.unam.mx |
+| Vega ibañez Joseph Uriel | Team Scrum | vjosephuriel@gmail.com |
 
 ## Colaboradores externos
 - @aaroeldtr
