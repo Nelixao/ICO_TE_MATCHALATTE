@@ -1,4 +1,4 @@
-# Nombre del equipo: CodeWave
+# Nombre del equipo: MATCHALATTE
 
 ## Integrantes
 
