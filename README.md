@@ -9,6 +9,7 @@
 | Emiliano Garcia | Team Scrum | emilianogarsan0@gmail.com |
 | Jessica Hernandez | Team Scrum | jessicadhd34@gmail.com |
 | Sofia Vega | Team Scrum | sofiavega320@aragon.unam.mx |
+| Vega ibañez Joseph Uriel | Team Scrum | vjosephuriel@gmail.com |
 
 ## Colaboradores externos
 - @aaroeldtr
